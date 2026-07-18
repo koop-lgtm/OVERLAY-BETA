@@ -1,0 +1,46 @@
+{
+  "_comment": "All regions are [x, y, width, height] in SCREEN pixel coordinates (not window-relative). Run calibrate.py to find these for your setup.",
+
+  "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+
+  "ammo_region":    [742, 752, 98, 33],
+  "distance_region": [1103, 758, 82, 27],
+  "ready_region":   [1097, 783, 81, 32],
+  "death_region":   [663, 58, 609, 155],
+
+  "hold_mode": false,
+  "poll_interval_ms": 1,
+  "reticle_scale": 1,
+  "font_size": 17,
+
+  "_crosshair_note": "Leave crosshair_image empty to use the built-in drawn reticle. To use your own, drop a PNG (transparent background works best) in this folder and put its filename here, e.g. 'my_crosshair.png'.",
+  "crosshair_image": "",
+  "crosshair_scale": 1.0,
+
+  "ocr_upscale": 3,
+  "fuzzy_cutoff": 0.55,
+  "known_ammo_types": [
+    "APFSDS", "HEAT", "HE", "HESH", "AP", "APHE", "APDS", "ATGM"
+  ],
+  "known_ready_states": ["READY", "RELOADING", "LOADING", "AIMING", "EMPTY"],
+  "death_keyword": "RETICLETEST3",
+
+  "vignette_enabled": true,
+  "scope_width": 2000,
+  "scope_height": 1200,
+  "scope_corner_radius": 400,
+  "vignette_color": "#000000",
+
+  "hud_color": "#ff3b30",
+  "hud_glow_enabled": true,
+  "hud_glow_strength": 0.5,
+  "dot_red": "#e33d3d",
+  "dot_green": "#3de35a",
+  "transparent_key": "#ff00ff",
+
+  "thermal_image_width": 2980,
+  "thermal_image_height": 2080,
+  "thermal_img_green": "Green thermals.png",
+  "thermal_img_red": "Red thermals.png",
+  "thermal_img_blue": "Blue thermals.png"
+}

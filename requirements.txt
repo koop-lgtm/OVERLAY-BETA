@@ -1,0 +1,5 @@
+keyboard
+pytesseract
+pillow
+opencv-python
+numpy

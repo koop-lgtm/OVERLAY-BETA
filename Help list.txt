@@ -1,0 +1,20 @@
+first open command prompt, type cd then copy and paste the directory of the overlay folder, should look like - (cd C:\Users\fraze\Downloads\Overlay1)
+
+Next, type "pip install -r requirements.txt" and run it. this installs all the valid dependencies for the python script to work. 
+
+after you get all your dependencies installed, run "python overlay.py" while you arent in the gunners sight and thermals are off. and boom! should work now!!
+
+!!IMPORTANT!! - you must change your death text to "RETICLETEST3" for it to recognize it.
+
+controls - 
+same as normal game 
+"T" to change thermal color
+"Y" to disable thermal color
+"V" to scout (Plays "identified" crew sound)
+"Space" to play the mg sound 
+
+press 1 twice to load SABOT
+press 2 twice to load HEAT
+
+
+-BigGuyBigman
