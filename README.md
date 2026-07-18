@@ -1,8 +1,4 @@
-# Custom Thermal HUD Overlay
-
-A transparent, click-through Windows overlay that draws your own reticle/HUD
-skin on top of the game, while mirroring live values (ammo type, distance,
-ready status) read from the game's actual on-screen HUD via OCR.
+# OVERLAY -- BETA 
 
 ## What it does
 
